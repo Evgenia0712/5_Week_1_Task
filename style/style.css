@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    flex-basis: 10%;
+    background-color: rgb(171, 169, 169);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    font-weight: bolder;
+}
+
+main {
+    flex-grow: 1;
+    background-color: rgb(251, 233, 201);
+    display: flex;
+}
+
+.global {
+    flex-basis: 60%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+aside {
+    flex-grow: 1;
+    background-color: rgb(179, 243, 194);
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.blok_1 {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.blok_2 {
+    flex-basis: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.blok_3 {
+    flex-basis: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background-color: rgb(251, 193, 140);
+    height: 45px;
+    width: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.box_3 {
+    background-color: rgb(251, 193, 140);
+    height: 45px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: bolder;
+}
+
+footer {
+    flex-basis: 20%;
+    padding: 15px;
+    background-color: dimgrey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info {
+    background-color: white;
+    height: 65px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: bolder;
+}
